@@ -16,6 +16,17 @@ This repo contains Jupyter Notebooks useful for several aspects of Blue Team wor
 
 ## Installation
 
+### Docker
+Run the following commands on a host that has Docker:
+
+```
+remnux@remnux:~/blue-jupyter$ sudo docker build -t bluejupyter .
+```
+
+```
+remnux@remnux:~/blue-jupyter$ sudo docker run -it -p 8888:8888 -v /home/remnux/blue-jupyter/malware-analysis/dropbox/:/src/malware-analysis/dropbox bluejupyter
+```
+
 ### Linux
 You need Jupyter Notebooks! On linux, run:
 ```
