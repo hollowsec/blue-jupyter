@@ -24,7 +24,7 @@ remnux@remnux:~/blue-jupyter$ sudo docker build -t bluejupyter .
 ```
 
 ```
-remnux@remnux:~/blue-jupyter$ sudo docker run -it -p 8888:8888 -v /home/remnux/blue-jupyter/malware-analysis/dropbox/:/src/malware-analysis/dropbox bluejupyter
+remnux@remnux:~/blue-jupyter$ sudo docker run -it -p 8888:8888 -v /home/remnux/blue-jupyter:/src bluejupyter
 ```
 
 ### Linux
